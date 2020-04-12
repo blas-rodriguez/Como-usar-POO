@@ -1,6 +1,3 @@
-function Car(){
-    this.id ;
-    this.license;
-    this.driver;
-    this.passenger;
-}
+var car = new Car("qwr789", new Account("andres herrera", "ert875"))
+car.passenger = 4;
+car.printDataCar();
