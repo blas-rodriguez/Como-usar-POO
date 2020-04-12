@@ -1,18 +1,12 @@
-class Main{
-    public static void main(String[] args){
-        System.out.println("hola mundo");
-        Car car = new Car("AMQ123", Account("andres her", "am123"));
-        // car.license =;
-        // car.driver = "Andress Herrera";
-        car.passegenger=4;
-        //System.out.println("car licence:"+car.licence);
-        car.printDataCar();
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+        UberX uberX = new Car("AMQ123", new Account("Andres Herrera", "AND123"), "Chevrolet", "Sonic");
+        uberX.passegenger = 4;
+        uberX.printDataCar();
 
-        Car car2 =new Car("QER567", Account("Adrea herrera", "am123"));
-        // car2.licence ="QER567";
-        // car2.driver="Adrea herrera";
-        car2.passegenger=3;
-        car.printDataCar();
-        //System.out.println("car licence:"+car2.licence);
+        // Car car2 = new Car("QWE567", new Account("Andrea Herrera", "ANDA876"));
+        // car2.passegenger = 3;
+        // car2.printDataCar();
     }
 }
